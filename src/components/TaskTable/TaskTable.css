@@ -1,0 +1,23 @@
+.taskTable {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.taskTable-li {
+    margin-top: 15px;
+    list-style: inside;
+    list-style-type: none;
+    margin-left: 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    width: 100%;
+    text-align: start;
+
+}
