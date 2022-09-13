@@ -1,10 +1,17 @@
-const TASK_TYPE = {
-    BACKLOG: 0,
+const LIST_TYPES = {
+	BACKLOG: 0,
     READY: 1,
-    IN_PROGRESS: 2,
-    FINISHED: 3
+	IN_PROGRESS: 2,
+	FINISHED: 3,
 }
 
-const TASK_TITLE = ['Backlog', 'Ready', 'In Progress', 'Finished']
+const LIST_COPY = {
+	[LIST_TYPES.BACKLOG]: 'Backlog',
+    [LIST_TYPES.READY]: "Ready",
+	[LIST_TYPES.IN_PROGRESS]: 'In progress',
+	[LIST_TYPES.FINISHED]: 'Finished',
+}
 
-export { TASK_TYPE, TASK_TITLE }
+
+
+export { LIST_TYPES, LIST_COPY }
